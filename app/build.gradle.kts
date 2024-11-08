@@ -68,9 +68,11 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
     val retrofitVersion = "2.11.0"
     implementation("com.squareup.retrofit2:retrofit:$retrofitVersion")
     implementation("com.squareup.retrofit2:converter-gson:$retrofitVersion")
+    /*Coil is a library that allows you to load images from the internet into your app.*/
     implementation("io.coil-kt:coil-compose:2.6.0")
 //    implementation("io.coil-kt.coil3:coil-compose:3.0.1")
 //    implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.1")

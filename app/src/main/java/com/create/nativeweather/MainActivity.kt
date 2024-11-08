@@ -16,6 +16,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         // Turn off the decor fitting system windows, which allows us to handle insets,
         // including IME animations
+
+
+        /*VewModelProvider(this) is used to create a new instance of the WeatherViewModel class.*/
         val weatherViewModel = ViewModelProvider(this)[WeatherViewModel::class.java]
         enableEdgeToEdge()
         setContent {
